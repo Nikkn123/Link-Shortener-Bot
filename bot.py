@@ -7,9 +7,9 @@ from os import environ
 from pyrogram import Client, filters
 from pyrogram.types import *
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
+API_ID = environ.get('API_ID','19886681')
+API_HASH = environ.get('API_HASH', '600e799cf14a251134cd0c6ea8e08f27')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5142098805:AAFBUvAmCaAmMfzV7nS9zNSGxmmQmJPnLRA')
 API_KEY = environ.get('API_KEY')
 API_URL = environ.get('API_URL')
 
